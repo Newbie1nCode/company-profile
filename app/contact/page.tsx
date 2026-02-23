@@ -112,7 +112,7 @@ export default function ContactPage() {
 
               <div>
                 <textarea
-                  rows="4"
+                  rows={4}
                   placeholder="Pesan Anda..."
                   required
                   className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#2563EB] focus:border-transparent transition bg-white/50"

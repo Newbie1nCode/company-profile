@@ -92,7 +92,7 @@ export default function RootLayout({
   );
 }
 
-/* Desktop NavLink */
+/* Desktop NavLink with battery-like underline hover effect */
 function NavLink({
   href,
   children,
@@ -103,15 +103,16 @@ function NavLink({
   return (
     <Link
       href={href}
-      className="relative px-5 py-2 font-medium text-[#0F172A] hover:text-[#2563EB] transition group"
+      className="relative px-5 py-2 font-medium text-[#0F172A] hover:text-[#2563EB] transition-colors group"
     >
       {children}
-      <span className="absolute bottom-0 left-5 right-5 h-0.5 bg-gradient-to-r from-transparent via-[#22D3EE] to-transparent opacity-0 group-hover:opacity-100 transition" />
+      {/* Animated gradient underline */}
+      <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-[#0A2540] to-[#22D3EE] scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out" />
     </Link>
   );
 }
 
-/* Mobile NavLink */
+/* Mobile NavLink (no hover effect needed for mobile) */
 function MobileNavLink({
   href,
   children,
