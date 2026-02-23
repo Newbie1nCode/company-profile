@@ -125,7 +125,6 @@ export default function ServicesPage() {
                   key={index}
                   className="bg-white p-6 rounded-xl border border-gray-200 hover:border-blue-200 hover:shadow-lg transition-all duration-300 group"
                 >
-                  <div className="text-4xl mb-4">{item.icon}</div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600">
                     {item.title}
                   </h3>

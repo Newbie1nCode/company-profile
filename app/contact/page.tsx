@@ -33,7 +33,7 @@ export default function ContactPage() {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-base font-semibold text-[#0A2540]">Telepon</h3>
-                  <p className="mt-1 text-[#0F172A]">(021) 1234-5678</p>
+                  <p className="mt-1 text-[#0F172A]">(021) 1234-dummy</p>
                 </div>
               </div>
 
@@ -48,7 +48,7 @@ export default function ContactPage() {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-base font-semibold text-[#0A2540]">Email</h3>
-                  <p className="mt-1 text-[#0F172A]">info@nusadatacloud.com</p>
+                  <p className="mt-1 text-[#0F172A]">dummy@nusadatacloud.com</p>
                 </div>
               </div>
 
@@ -65,8 +65,8 @@ export default function ContactPage() {
                 <div className="ml-4">
                   <h3 className="text-base font-semibold text-[#0A2540]">Lokasi</h3>
                   <p className="mt-1 text-[#0F172A] text-sm">
-                    Gedung NusaData Tower<br />
-                    Jakarta Selatan
+                    DummyTower<br />
+                    Jakarta Pusat
                   </p>
                 </div>
               </div>
